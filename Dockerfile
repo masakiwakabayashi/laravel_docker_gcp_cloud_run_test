@@ -1,6 +1,6 @@
 FROM composer:1.6.5 as build
 WORKDIR /app
-COPY site /app
+COPY . /app
 RUN composer install
 
 FROM php:7.2-apache
