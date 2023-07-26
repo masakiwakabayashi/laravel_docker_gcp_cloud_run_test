@@ -9,7 +9,7 @@ automatic_scaling:
   min_instances: 1
   max_instances: 10
 
-env_variables:
-  LOG_CHANNEL: stackdriver
-  APP_KEY: YOUR_APP_KEY
-  APP_STORAGE: /tmp
+# env_variables:
+#   LOG_CHANNEL: stackdriver
+#   APP_KEY: YOUR_APP_KEY
+#   APP_STORAGE: /tmp
