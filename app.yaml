@@ -1,8 +1,8 @@
 runtime: php81
 env: flex
 
-runtime_config:
-  document_root: public
+# runtime_config:
+#   document_root: public
 
 automatic_scaling:
   target_cpu_utilization: 0.65
